@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tra_ckk/core/Utils/assets.dart';
 
 class SplashViewBody extends StatelessWidget {
   const SplashViewBody({super.key});
@@ -12,7 +13,7 @@ class SplashViewBody extends StatelessWidget {
         Center(
           child: Image.asset(
 
-            'assets/img/b5338158-58f2-49d9-8963-bd53517f25f6.png',
+            AssetsData.logo,
             height: 120,
           ),
 
